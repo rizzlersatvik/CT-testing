@@ -141,57 +141,29 @@ def draw_roi_on_images(input_data_list, template_path):
 # Example input data list
 input_data_list = [
     {
-        "roi": [
-            {
-                "type": "face",
-                "top_left_x": 205,
-                "top_left_y": 109,
-                "width": 181,
-                "height": 208
-            }
-        ],
-        "id": "a1169305-left-ec7169f4-7076-4095-b1ce-6fd0aefe1a69.png",
-        "url": "https://rizzle-api-gateway.s3.amazonaws.com/image/ml-podcast-thumbnails/ec7169f4-7076-4095-b1ce-6fd0aefe1a69.png",
-        "faceCoordinates": {
-            "top_left_x": 411,
-            "top_left_y": 112,
-            "width": 164,
-            "height": 223
-        },
-        "media_preference": "LEFT",
-        "size": {
-            "width": 1280,
-            "height": 720
-        },
-        "cutout_type": "PERSON",
-        "enhance_image": True
-    },
-    {
-        "roi": [
-            {
-                "type": "face",
-                "top_left_x": 896,
-                "top_left_y": 94,
-                "width": 211,
-                "height": 220
-            }
-        ],
-        "id": "09815063-right-aa172b44-f065-4352-a488-bfea1e16cf6a.png",
-        "url": "https://rizzle-api-gateway.s3.amazonaws.com/image/ml-podcast-thumbnails/aa172b44-f065-4352-a488-bfea1e16cf6a.png",
-        "faceCoordinates": {
-            "top_left_x": 615,
-            "top_left_y": 130,
-            "width": 160,
-            "height": 200
-        },
-        "media_preference": "RIGHT",
-        "size": {
-            "width": 1280,
-            "height": 720
-        },
-        "cutout_type": "PERSON",
-        "enhance_image": True
-    }          
+                "roi": [
+                    {
+                        "type": "face",
+                        "top_left_x": 824,
+                        "top_left_y": 132,
+                        "width": 204,
+                        "height": 218
+                    }
+                ],
+                "id": "ac269563-left-beea56e4-9be5-42d0-9cf9-854b4b506ee5.png",
+                "url": "https://rizzle-api-gateway-prod.s3.amazonaws.com/image/ml-podcast-thumbnails/beea56e4-9be5-42d0-9cf9-854b4b506ee5.png",
+                "faceCoordinates": {
+                    "top_left_x": 217,
+                    "top_left_y": 163,
+                    "width": 177,
+                    "height": 232
+                },
+                "media_preference": "LEFT",
+                "size": {
+                    "width": 1280,
+                    "height": 720
+                }
+    }
 ]
 
 template_path = 'thumbnail.png'  # Change this to your template image path

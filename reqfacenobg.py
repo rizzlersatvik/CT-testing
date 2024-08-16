@@ -88,9 +88,9 @@ def draw_roi_on_image(input_data, template_path):
     overlay_image.show(title="Overlay Image")
 
     # Save the images if needed
-    img_with_face_coordinates.save('face_coordinates.png')
-    template_with_roi.save('ROI_on_template.png')
-    overlay_image.save('Overlay_image.png')
+    #img_with_face_coordinates.save('face_coordinates.png')
+    #template_with_roi.save('ROI_on_template.png')
+    #overlay_image.save('Overlay_image.png')
 
 input_data =             {
                 "roi": [
